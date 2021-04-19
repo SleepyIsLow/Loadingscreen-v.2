@@ -88,7 +88,7 @@ Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
 	{ogg: "songs/Star Wars - Clone Army Theme(MP3_160K).ogg", name: "Star Wars Clone Army Theme"},
 	{ogg: "songs/Star Wars Soundtrack Episode II _ Extended Edition _ Attack Of The Clones(MP3_160K).ogg", name: "Attack of Clones Theme"},
-	{ogg: "songs/{ogg: "songs/Born for This Attack of Clones.ogg", name: "Born for This [Attack of Clones Version]"},
+	{ogg: "songs/songs/Born for This Attack of Clones.ogg", name: "Born for This [Attack of Clones Version]"},
 ];
 
 /*Random music order?*/
