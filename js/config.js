@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/aoc.png";
+var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Attack of Clones";
+var l_serverName = "Knights of Republic";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,7 +50,10 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg"
+	"backgrounds/images/kor_all.jpg",
+	"backgrounds/images/kor_st.jpg",
+	"backgrounds/images/kor_212th.jpg",
+	"backgrounds/images/kor_501st.jpg"
 ];
 
 /*Random background images order?*/
@@ -59,7 +62,7 @@ var l_bgImagesRandom = true;
 /*(Image-background only)
 Delay between background images changes
 in milliseconds*/
-var l_bgImageDuration = 5000;
+var l_bgImageDuration = 2500;
 
 /*(Image-background only)
 Image background fade velocity
@@ -83,9 +86,9 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Star Wars - Clone Army Theme(MP3_160K).ogg", name: "Star Wars Clone Army Theme"},
-	{ogg: "songs/Star Wars Soundtrack Episode II _ Extended Edition _ Attack Of The Clones(MP3_160K).ogg", name: "Attack of Clones Theme"},
-	{ogg: "songs/songs/Born for This Attack of Clones.ogg", name: "Born for This [Attack of Clones Version]"},
+	{ogg: "songs/iyh.ogg", name: "Zombie (In Your Head) - Edited by Darth Porg"},
+	{ogg: "songs/bfd.ogg", name: "Born for This - The Score - Edited Version"},
+	{ogg: "songs/fear.ogg", name: "Welcome to the Fire - Willyecho - Edited Version"},
 ];
 
 /*Random music order?*/
@@ -93,16 +96,17 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 10;
+var l_musicVolume = 1;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Wir wünschen dir Spaß auf dem Server!",
-"Danke fürs Beitreten!",
-"Kennst du schon unser Forum? Nein?? Unser Forum findest du hier: https://attackofclones.mistforums.com/forums"
+	"Viel Spaß auf Knights of Republic",
+	"Gute Soldaten Befolgen Befehle!",
+	"Halte dich bitte an die Server Regeln!",
+	"Etwas Geduld, Gleich kannst du spielen!"
 ];
 
 /*Random message order?*/
@@ -110,7 +114,7 @@ var l_messagesRandom = true;
 
 /*Delay between message changes
 in milliseconds*/
-var l_messagesDelay = 5000;
+var l_messagesDelay = 2500;
 
 /*Messages fade time
 in milliseconds*/
